@@ -13,7 +13,7 @@ class HomePage(View):
         context['form'] = LoginForm()
         # x = User.objects.filter(username="usr_korn")
         # x = User.objects.filter(username__startwith="usr_korn")
-        # x.first()
+        # x.first()d
         return render(request, "web/index.html", context)
 
     def post(self, request):
