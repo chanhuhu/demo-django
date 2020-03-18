@@ -3,7 +3,7 @@ just try django
 
 # Deployment
 
-1 git clone
+1 git clone https://github.com/chanhuhu/demo-django.git
 
 2 cd demo-django
 
