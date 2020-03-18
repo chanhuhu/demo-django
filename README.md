@@ -3,19 +3,19 @@ just try django
 
 # Deployment
 
-> git clone
+1 git clone
 
-> cd demo-django
+2 cd demo-django
 
-> virtualenv env
+3 virtualenv env
 
-> env\Scripts\activate
+4 env\Scripts\activate
 
-(env) > pip install -r requirements.txt
+5 (env) > pip install -r requirements.txt
 
-(env) > python manage.py migrate
+6 (env) > python manage.py migrate
 
-(env) > python manage.py createsuperuser
+7 (env) > python manage.py createsuperuser
 
-(env) > python manage.py runserver
+8 (env) > python manage.py runserver
 
